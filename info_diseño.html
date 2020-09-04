@@ -22,7 +22,7 @@
                 </ul>
                 <ul class="navbar-nav  mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Saber más</a>
+                        <a class="nav-link" href="descargar.html">Descargar</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav  mr-auto">
@@ -34,7 +34,7 @@
         </nav> 
 
         <!--Main-->
-        <main class="w-50" style="margin-top: 85px;">
+        <main class="w-50 ml-2" style="margin-top: 85px;">
             <h1>Diseño proyecto</h1>
             <p>El diseño del proyecto es una parte muy importante,
                 en este espacio veremos los procesos que se llevaron
@@ -42,31 +42,102 @@
             </p>
         </main>
         
+    <!--Inicio fichas de las otras secciones-->
+        <div class="float-right w-25 mt-5" style="margin-right: 200px;">
+            <div class="card">
+                <img class="card-img-top" src="Imagenes/carta_tecnica.jpg" alt="" width="250" height="200">
+                <h5 class="card-title text-center"><a href="Info_tecnica.html">Informacion tecnica</a> </h5>
+                <p class="card-text ml-3 mb-3">Espacio donde estará todo con respecto a la parte de programación
+                    del proyecto
+                </p>
+            </div>
+            <div class="card mt-5">
+                <img class="card-img-top" src="Imagenes/carta-integrantes.jpg" alt="" width="250" height="200">
+                <h5 class="card-title text-center"><a href="info_integrantes.html">Informacion Integrantes</a> </h5>
+                <p class="card-text ml-3 mb-3">Espacio donde estará lo referido a los participantes del proyecto
+                </p>
+            </div>
+        </div>
         <!--Menu de topicos-->
-        <div>
+        <div class="w-50 ml-2" style="background-color: aliceblue;">
             <ul>
-                <li><a href="">Resumen</a></li>
-                <li><a href="">Comienzos</a></li>
-                <li><a href="">Version final</a></li>
-                <li><a href="">Aplicativo cliente</a></li>
-                <li><a href="">Aplicativo servidor</a></li>
+                <li><a href="#resumen">Resumen</a></li>
+                <li><a href="#comienzos">Comienzos</a></li>
+                <li><a href="#ver_final">Version final</a></li>
+                <li><a href="cliente">Aplicativo cliente</a></li>
+                <li><a href="servidor">Aplicativo servidor</a></li>
             </ul>
         </div>
-        <aside>
+        <aside class="ml-2 w-50">
             <div>
-                <h2>Resumen</h2>
+                <h2 id="resumen">Resumen</h2>
                 <p>El diseño de la aplicación en un comienzos
-                    fue muy distint
+                    fue muy distinto al que quedó, en esta 
+                    pagina se verá el avance del diseño y 
+                    su version final
                 </p>
             </div>
             <div>
-
+                <h2 id="comienzos">Comienzos</h2>
+                <p>Su diseño inicial es bastante caotico y no
+                    se ve una logica en el diseño
+                </p>
+                <img src="Imagenes/Interfaz/bienvenida_antigua.png" alt="bienvenida_antigua" width="300" height="250">
+                <hr>
+                <img src="Imagenes/Interfaz/login_antigua.png" alt="login_antigua" width="300" height="250">
             </div>
+            <hr>
             <div>
-
+                <h2 id="ver_final">Version final</h2>
+                <p>En la version que se implemento se empezaron
+                    a desarrollar el logo, y la colorimetria del
+                    proyecto
+                </p>
+                <h3>Icono</h3>
+                <img src="Imagenes/Interfaz/Icono_app.png" alt="logo" width="300" height="250">
+                <p>Es una modificación del escudo del sena, con 
+                    una imagen de computador en medio en alusión al 
+                    programa, asi como dependiendo de la aplicación
+                    tendrá una u (usuario) o a (administrador)
+                </p>
+                <hr>
+                <h3>Logo</h3>
+                <img src="Imagenes/Interfaz/logo_app.png" alt="logo_app" width="300" height="250">
+                <p>El logo es un diseño del computador referente al
+                    programa asi como el logo del sena para que represente
+                    a los estudiantes que lo hicieron
+                </p>
+            </div>
+            <hr>
+            <div>
+                <h2 id="cliente">Cliente</h2>
+                <p>Su diseño es simple aunque esto hace que la aplicación
+                    sea más facil de utilizar
+                </p>
+                <img src="Imagenes/Interfaz/Imagen_usuario.png" alt="imagen_usuario" width="300" height="250">
+            </div>
+            <hr>
+            <div>
+                <h2 id="servidor">Servidor</h2>
+                <p>Este diseño comparte colores con el cliente ya que se quiso dar
+                    una uniformidad al proyecto en tema de colores, su diseño 
+                    como la de cliente aunque es sencilla es bastante intuitiva
+                    en utilizar
+                </p>
+                <img src="Imagenes/Interfaz/login_admin.png" alt="login_admin" width="300">
+                <hr>
+                <img src="Imagenes/Interfaz/eleccion_ficha.png" alt="eleccion_ficha" width="300">
+                <hr>
+                <img src="Imagenes/Interfaz/control_alumnos.png" alt="control_alumnos" width="300">
+                <hr>
+                <img src="Imagenes/Interfaz/eliminar_alumno.png" alt="aliminar_alumno" width="300">
+                <hr>
+                <img src="Imagenes/Interfaz/Insertar_Alumno.png" alt="Insertar_alumno" width="300">
             </div>
         </aside>
-        
+        <footer class="w-100 mt-4 mb-4 position-static">
+            <p class="m-auto w-75">©Copyrigth:Derechos reservados</p>
+        </footer>
 </body>
 
 </html>
